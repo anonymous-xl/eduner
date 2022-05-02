@@ -1,0 +1,18 @@
+processed 82978 tokens with 4526 phrases; found: 3287 phrases; correct: 2351.
+accuracy:  88.31%; precision:  71.52%; recall:  51.94%; FB1:  60.18
+              ALG: precision:  38.46%; recall:   6.85%; FB1:  11.63  13
+              BOO: precision:  71.67%; recall:  63.24%; FB1:  67.19  60
+              COF: precision:  37.50%; recall:  26.47%; FB1:  31.03  24
+              CON: precision:  78.02%; recall:  61.53%; FB1:  68.80  496
+              COU: precision:  90.36%; recall:  66.37%; FB1:  76.53  83
+              CRN: precision:  73.12%; recall:  42.50%; FB1:  53.75  93
+              DAT: precision:  83.44%; recall:  90.97%; FB1:  87.04  157
+              FRM: precision:  16.67%; recall:   2.13%; FB1:   3.77  6
+              JOU: precision:  60.00%; recall:  85.71%; FB1:  70.59  30
+              LOC: precision:  64.29%; recall:  17.31%; FB1:  27.27  14
+              ORG: precision:  55.81%; recall:  45.43%; FB1:  50.08  267
+              PER: precision:  78.58%; recall:  77.40%; FB1:  77.98  915
+              PLO: precision:  52.50%; recall:  56.76%; FB1:  54.55  40
+              TER: precision:  67.01%; recall:  35.21%; FB1:  46.16  673
+              THE: precision:  73.58%; recall:  63.93%; FB1:  68.42  53
+              TOO: precision:  62.26%; recall:  41.17%; FB1:  49.56  363
