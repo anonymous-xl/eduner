@@ -1,0 +1,1 @@
+python run_ner.py --data_dir=data/ --bert_model=/data2/lx/bert-base-chinese --task_name=ner --output_dir=out_base --max_seq_length=256 --do_eval --eval_on test --warmup_proportion=0.1
