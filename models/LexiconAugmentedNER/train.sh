@@ -1,0 +1,1 @@
+python main.py --status train --train data/DisciplineNER/train.char.bmes --dev data/DisciplineNER/dev.char.bmes --test data/DisciplineNER/test.char.bmes --modelname disner14 --savedset data/DisciplineNER/dis14.dset
