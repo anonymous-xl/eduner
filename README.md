@@ -20,7 +20,7 @@
 - The related <em>resource paper ✨</em> is under review and a sampled version of the dataset is currently released. After final proofing, the full version of the EduNER dataset will be publicly accessible.
 - `sampled_EduNER/` directory contains the sampling version of our dataset.
 - `Cohen_Kappa/` directory contains [Cohen's Kappa consistency examination](https://github.com/xuli19/EduNER/tree/main/Cohen_Kappa) description.
-- A snapshot of entity types<img src="https://github.com/xuli19/EduNER/blob/main/imgs/EDUNER_schema.png" alt="EduNER schema" style="zoom:50%;" />
+- A snapshot of entity types<img src="https://github.com/anonymous-xl/eduner/blob/main/imgs/EDUNER_schema.png" alt="EduNER schema" style="zoom:30%;" />
 
 ## Models
 ### basic description
@@ -75,7 +75,7 @@
   | CL-KL                     | 10    | 1          | 512             | 5e-6          | 0.1          |
   | CL-L<sub>2</sub>          | 10    | 2          | 512             | 5e-6          | 0.1          |
 
-- Code [instruction](https://github.com/xuli19/EduNER/tree/main/models), reproduce benchmark models
+- Code [instruction](https://github.com/anonymous-xl/eduner/tree/main/models), reproduce benchmark models
 
 ## Online Annotation Platform
 
@@ -86,7 +86,7 @@ username: edu
 password: 123
 ```
 
-- A snapshot of the collaborative corpus labeling platform, the yellow box suggests the candidate entity, and the blue box indicates the corresponding index of entity type. The annotator is asked to identify the correct type index of the candidate entity. The default index of character is set to 0.<img src="https://github.com/anonymous-xl/eduner/blob/main/imgs/labeling_platform.jpg" alt="annotation tool" style="zoom:50%;" />
+- A snapshot of the collaborative corpus labeling platform, the yellow box suggests the candidate entity, and the blue box indicates the corresponding index of entity type. The annotator is asked to identify the correct type index of the candidate entity. The default index of character is set to 0. <img src="https://github.com/anonymous-xl/eduner/blob/main/imgs/labeling_platform.jpg" alt="annotation tool" style="zoom:30%;" />
 
 ## Update plan
 
@@ -99,7 +99,7 @@ EduNER dataset project is a long-term plan, we expect the dataset to cover more 
 
 - A beta educational tool ( [EDUNERScore](http://openaied.cn/ents) ) based on our dataset can be accessed. The tool is based on NER technology and allows for analyzing unstructured educational texts in timely manner. Specifically, the tool can extract the discipline entity from a large-scale unstructured texts, e.g., discourse content, online forums, writing documents etc. It will help the stakeholder to better understand the learning or teaching activity. 
 - Due to limited computing resources, only cached results can be viewed at current. In addition, only the Chinese version is now available.
-- Instruction ![operation](https://github.com/xuli19/EduNER/blob/main/img/sample.gif)
+- Instruction ![operation](https://github.com/anonymous-xl/eduner/blob/main/imgs/sample.gif)
 
 ## License
 
