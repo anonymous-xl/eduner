@@ -20,7 +20,7 @@
 - The related <em>resource paper ✨</em> is under review and a sampled version of the dataset is currently released. After final proofing, the full version of the EduNER dataset will be publicly accessible.
 - `sampled_EduNER/` directory contains the sampling version of our dataset.
 - `Cohen_Kappa/` directory contains [Cohen's Kappa consistency examination](https://github.com/xuli19/EduNER/tree/main/Cohen_Kappa) description.
-- A snapshot of entity types<img src="https://github.com/xuli19/EduNER/blob/main/img/EDUNER_schema.png" alt="EduNER schema" style="zoom:50%;" />
+- A snapshot of entity types<img src="https://github.com/xuli19/EduNER/blob/main/imgs/EDUNER_schema.png" alt="EduNER schema" style="zoom:50%;" />
 
 ## Models
 ### basic description
@@ -86,7 +86,7 @@ username: edu
 password: 123
 ```
 
-- A snapshot of the collaborative corpus labeling platform, the yellow box suggests the candidate entity, and the blue box indicates the corresponding index of entity type. The annotator is asked to identify the correct type index of the candidate entity. The default index of character is set to 0.<img src="https://github.com/xuli19/EduNER/blob/main/img/labeling_platform.jpg" alt="annotation tool" style="zoom:50%;" />
+- A snapshot of the collaborative corpus labeling platform, the yellow box suggests the candidate entity, and the blue box indicates the corresponding index of entity type. The annotator is asked to identify the correct type index of the candidate entity. The default index of character is set to 0.<img src="https://github.com/anonymous-xl/eduner/blob/main/imgs/labeling_platform.jpg" alt="annotation tool" style="zoom:50%;" />
 
 ## Update plan
 
