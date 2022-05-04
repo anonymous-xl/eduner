@@ -86,7 +86,7 @@ username: edu
 password: 123
 ```
 
-- A snapshot of the collaborative corpus labeling platform, the yellow box suggests the candidate entity, and the blue box indicates the corresponding index of entity type. The annotator is asked to identify the correct type index of the candidate entity. The default index of character is set to 0.[Snapshot](https://github.com/xuli19/EduNER/blob/main/img/labeling_platform.jpg)
+- A snapshot of the collaborative corpus labeling platform, the yellow box suggests the candidate entity, and the blue box indicates the corresponding index of entity type. The annotator is asked to identify the correct type index of the candidate entity. The default index of character is set to 0.<img src="https://github.com/xuli19/EduNER/blob/main/img/labeling_platform.jpg" alt="annotation tool" style="zoom:50%;" />
 
 ## Update plan
 
