@@ -229,16 +229,23 @@ python run.py --help
 Input format (prefer BIO tag scheme), with each character its label for one line. Sentences are splited with a null line.
 
 ```text
-美	B-LOC
-国	I-LOC
-的	O
-华	B-PER
-莱	I-PER
-士	I-PER
-
-我	O
-跟	O
-他	O
+人 B-CON
+工 I-CON
+智 I-CON
+能 I-CON
+教 I-CON
+育 I-CON
+是 O
+当 O
+前 O
+教 O
+育 O
+发 O
+展 O
+的 O
+新 O
+趋 O
+势 O
 ```
 
 **run the code**
@@ -268,27 +275,15 @@ Pytorch 0.4.1
 **Input format:**
 CoNLL format, with each character and its label split by a whitespace in a line. The "BMES" tag scheme is prefered.
 
-别 O 
-
-错 O
-
-过 O
-
-邻 O
-
-近 O
-
-大 B-LOC
-
-鹏 M-LOC
-
-湾 E-LOC
-
+```text
+智 B-CON
+慧 I-CON
+教 I-CON
+育 I-CON
 的 O
-
-湿 O
-
-地 O
+概 O
+念 O
+```
 
 **Pretrain embedding:**
 The pretrained embeddings(word embedding, char embedding and bichar embedding) are the same with [Lattice LSTM](https://www.aclweb.org/anthology/P18-1144)
@@ -316,13 +311,15 @@ The pretrained embeddings(word embedding, char embedding and bichar embedding) a
 
 BMES tag scheme, with each character its label for one line. Sentences are splited with a null line.
 
-	印   B-LOC
-	度   M-LOC
-	河   E-LOC
-	流   O
-	经   O
-	印   B-GPE
-	度   E-GPE
+```text
+智 B-CON
+慧 I-CON
+教 I-CON
+育 I-CON
+的 O
+概 O
+念 O
+```
 
 **Usage**
 
@@ -359,16 +356,6 @@ The pretrained character and word embeddings can be downloaded from [Lattice LST
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## LR-CNN
 
 **Requirement**:
@@ -380,17 +367,15 @@ Pytorch 0.4.1
 
 CoNLL format, with each character and its label splited by a whitespace in a line. The "BMES" tag scheme is prefered.
 
-	别 O  
-	错 O  
-	过 O  
-	邻 O  
-	近 O  
-	大 B-LOC  
-	鹏 M-LOC  
-	湾 E-LOC  
-	的 O  
-	湿 O  
-	地 O  
+```text
+智 B-CON
+慧 I-CON
+教 I-CON
+育 I-CON
+的 O
+概 O
+念 O
+```
 
 ** Pretrain embedding:**
 
