@@ -6,7 +6,7 @@
 
 - samping dataset:
   - sentences: 672
-  - characters: 41511
+  - words: 41511
 - entities summary:
   | label | ALG | COF | CON | COU | CRN | DAT | FRM | LOC | ORG | PER | PLO | TER | THE | TOO |
   | :---- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
@@ -19,12 +19,12 @@
  Cohen Kappa and Weighted Kappa correlation coefficients 
  and confidence boundaries
 
-|                            | lower | estimate | upper |
-| :------------------------- | ----- | -------- | ----- |
-| unweighted kappa           | 0.78  | 0.78     | 0.79  |
-| weighted kappa             | 0.66  | 0.82     | 0.98  |
+|                  | lower | estimate | upper |
+| :--------------- | ----- | -------- | ----- |
+| unweighted kappa | 0.78  | 0.78     | 0.79  |
+| weighted kappa   | 0.66  | 0.82     | 0.98  |
 
-Number of subjects = 41511 
+Number of words = 41511 
 
 ============== Cohen's Kappa summary =======================
 
@@ -32,12 +32,12 @@ Number of subjects = 41511
 
 Cohen's kappa reference sheet
 
-| Cohen's kappa Coefficient | Consistency |
-| :------------------------ | :---------- |
-| < 0.20                    | Poor        |
-| 0.21 - 0.40               | General     |
-| 0.41 - 0.60               | Moderate    |
-| 0.61 - 0.80               | Good        |
-| 0.81 - 1.00               | Very Good   |
+| Cohen's kappa Coefficient | Strength of agreement |
+| :------------------------ | :-------------------- |
+| < 0.20                    | Slight                |
+| 0.21 - 0.40               | Fair                  |
+| 0.41 - 0.60               | Moderate              |
+| 0.61 - 0.80               | Substantial           |
+| 0.81 - 1.00               | Almost perfect        |
 
 Our Cohen's kappa is 0.78, which indicates that the sampling dataset has a good quality.
