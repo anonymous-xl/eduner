@@ -2,7 +2,7 @@
 
 ## Sampling Dataset
 
-1. To check the quality of EduNER, we sampled a batch of sudataset and invited another rater to annotate it again. Then, we compared the datasets of two raters.
+1. To check the quality of EduNER, we sampled a batch of sudataset and invited different raters to annotate it again. 
 
 - samping dataset:
   - sentences: 672
