@@ -40,4 +40,4 @@ Cohen's kappa reference sheet
 | 0.61 - 0.80               | Substantial           |
 | 0.81 - 1.00               | Almost perfect        |
 
-Our Cohen's kappa is 0.78, which indicates that the sampling dataset has a good quality.
+Our Cohen's kappa is 0.82, which indicates that the sampling dataset has a good quality.
