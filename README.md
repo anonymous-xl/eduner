@@ -58,11 +58,11 @@
   | models                    | epoch | batch size | max length      | learning rate | dropout rate |
   | :------------------------ | :---- | ---------- | :-------------- | :------------ | :----------- |
   | example                   | 100   | 10         | 256             | 0.001         | 0.5          |
-  | BiLSTM+CRF                | 100   | 32         | Adaptive length | 0.001         | 0.5          |
+  | BiLSTM+CRF                | 100   | 32         | 256 | 0.001         | 0.5          |
   | BERT                      | 20    | 32         | 256             | 5e-5          | 0.5          |
   | BERT+CRF                  | 20    | 16         | 256             | 3e-5          | 0.1          |
   | LR-CNN                    | 150   | 10         | 256             | 1.5e-3        | 0.5          |
-  | TENER                     | 100   | 16         | Adaptive length | 7e-4          | 0.15         |
+  | TENER                     | 100   | 16         | 256 | 7e-4          | 0.15         |
   | LGN                       | 10    | 1          | 256             | 2e-4          | 0.5          |
   | FLAT+BERT                 | 100   | 10         | 200             | 6e-4          | 0.5          |
   | SoftLexicon (CNN)         | 100   | 30         | 256             | 5e-3          | 0.5          |
