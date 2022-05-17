@@ -79,11 +79,12 @@
 
 ## Online Annotation Platform
 
-- We provide a temporary account to test [the annotation tool](http://openaied.cn/)
+- We provide a temporary account to test [the annotation tool](http://*******/)
+> Due to the double-blind review, the URL of the collaborative labeling platform is temporarily omitted. We will make it publicly available after the review process.
 
 ```markdown
 username: edu
-password: 123
+password: ***
 ```
 
 - A snapshot of the collaborative corpus labeling platform, the yellow box suggests the candidate entity, and the blue box indicates the corresponding index of entity type. The annotator is asked to identify the correct type index of the candidate entity. The default index of character is set to 0. <img src="https://github.com/anonymous-xl/eduner/blob/main/imgs/labeling_platform.jpg" alt="annotation tool" style="zoom:30%;" />
