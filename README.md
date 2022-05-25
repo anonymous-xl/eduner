@@ -100,7 +100,7 @@ EduNER dataset project is a long-term plan, we expect the dataset to cover more 
 
 - A beta educational tool ( [EDUNERScore](http://*****/ents) ) based on our dataset can be accessed. The tool is based on NER technology and allows for analyzing unstructured educational texts in timely manner. Specifically, the tool can extract the discipline entity from a large-scale unstructured texts, e.g., discourse content, online forums, writing documents etc. It will help the stakeholder to better understand the learning or teaching activity. 
 - Due to limited computing resources, only cached results can be viewed at current. In addition, only the Chinese version is now available.
-- Instruction ![operation](https://github.com/anonymous-xl/eduner/blob/main/imgs/sample.gif)
+- Instruction ![operation](https://github.com/anonymous-xl/eduner/blob/main/imgs/EduNERScore%20intro.gif)
 
 ## License
 
