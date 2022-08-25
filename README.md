@@ -19,6 +19,7 @@
 
 - The related <em>resource paper ✨</em> is under review and a sampled version of the dataset is currently released. After final proofing, the full version of the EduNER dataset will be publicly accessible.
 - `sampled_EduNER/` directory contains the sampling version of our dataset.
+- `comparison_dataset/` directory contains other open-domain or domain-oriented NER datasets.
 - `Cohen_Kappa/` directory contains [Cohen's Kappa consistency examination](https://github.com/xuli19/EduNER/tree/main/Cohen_Kappa) description.
 - A snapshot of entity types<img src="https://github.com/anonymous-xl/eduner/blob/main/imgs/EDUNER_schema.png" alt="EduNER schema" style="zoom:30%;" />
 
