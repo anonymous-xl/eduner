@@ -5,7 +5,7 @@
 > EduNER is a Chinese named entity recognition dataset for education research.
 
 ```python
-├── Models
+├── models
 │   ├── BERT-CRF
 │   ├── BERT-NER
 │   ├── BiLSTM-CRF
@@ -19,14 +19,17 @@
 │   ├── MECT4CNER
 │   ├── SLK-NER
 │   └── TENER
-└── sample_EduNER
+├── Cohen_Kappa
+├── comparison_Dataset
+├── dataset
+├── imgs
 ```
 
 ## EduNER
 
 - `models/` directory contains the sampling version of our dataset.
 - Quality: [Cohen's Kappa consistency examination](https://github.com/xuli19/EduNER/tree/main/Cohen_Kappa)
-- The related <em>resource paper ✨</em> can be found in *Neural Computing & Applications*.
+- The related <em>resource paper ✨</em> can be found in *Neural Computing & Applications* journal.
 - A snapshot of entity types<img src="https://github.com/xuli19/EduNER/blob/main/img/EDUNER_schema.png" alt="EduNER scheme" style="zoom:50%;" />
 
 - **Reference**
@@ -80,7 +83,7 @@ password:
 
 ## Update plan
 
-EduNER dataset project is a long-term plan, we expect the dataset to cover more languages and disciplines in higher education. Although this goal is not achieved in a short duration, the dataset will expand to one or two disciplines and will acquire a bigger scale dataset that can be used for teaching or learning contexts.
+To a long-term plan, EduNER dataset project, we expect the dataset to cover more languages and disciplines in higher education. Although this goal is not achieved in a short duration, the dataset will expand to one or two disciplines and will acquire a bigger scale dataset that can be used for teaching or learning contexts.
 
 - *Pedagogic Psychology* discipline will be added in the future.
 - *Policy, Conference* related corpus will be added in the future.
