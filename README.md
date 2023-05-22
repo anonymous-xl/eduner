@@ -30,7 +30,7 @@
 - `models/` directory contains the sampling version of our dataset.
 - Quality: [Cohen's Kappa consistency examination](https://github.com/xuli19/EduNER/tree/main/Cohen_Kappa)
 - The related <em>resource paper ✨</em> can be found in *Neural Computing & Applications* journal.
-- A snapshot of entity types<img src="https://github.com/xuli19/EduNER/blob/main/img/EDUNER_schema.png" alt="EduNER scheme" style="zoom:50%;" />
+- A snapshot of entity types<img src="https://github.com/anonymous-xl/eduner/blob/main/imgs/EDUNER_schema.png" alt="EduNER scheme" style="zoom:50%;" />
 
 - **Reference**
   - Li, X., Wei, C., Jiang, Z. et al. EduNER: a Chinese named entity recognition dataset for education research. Neural Comput & Applic (2023). https://doi.org/10.1007/s00521-023-08635-5
